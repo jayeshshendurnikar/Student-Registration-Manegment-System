@@ -5,21 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Registration Management System</title>
     <link rel="icon" type="image/png" href="Image/Picture1.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <body>
-    <section>
-      <div>
-        <h1>🎓 Student Registration System</h1>
-        <p>
-          Manage student records with ease - Add, Edit, and Delete student
-          information
+    <!-- Header Section -->
+    <section class="header">
+      <div class="header-content">
+        <h1 class="title">🎓 Student Registration System</h1>
+        <p class="subtitle">
+          Manage student records with  — Add, Edit, and Delete student
+          information.
         </p>
       </div>
     </section>
+
+    <!-- Main Section -->
+    <section class="main-sec">
+      <div class="form-container">
+        <h1>Add New Student</h1>
+        <!-- Form Section -->
+        <form class="student-form">
+          <label class="form-label">Student Name</label>
+          <input type="text" class="form-input" placeholder="Enter student name" required/>
+
+          <label class="form-label">student ID</label>
+          <input type="number" class="form-input" placeholder="Enter student ID" required/>
+
+          <label class="form-label">Email</label>
+          <input type="email" class="form-input" placeholder="Enter email" required/>
+
+          <label class="form-label">Mobile No</label>
+          <input type="tel" class="form-input"  maxlength="10" placeholder="Enter mobile number" required/>
+
+          <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
+
+      <!-- Table Section -->
+      <div class="table-container">
+        <table class="student-table">
+            <caption><h1>📋 Registered Students</h1></caption>
+          <thead>
+            <tr>
+              <th>Student Name</th>
+              <th>student ID</th>
+              <th>Email</th>
+              <th>Mobile No</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rahul Sharma</td>
+              <td>23CS045</td>
+              <td>rahul@example.com</td>
+              <td>9876543210</td>
+              <td>
+                <button class="btn-edit"><i class="fa fa-pen"></i></button>
+                <button class="btn-delete"><i class="fa fa-trash"></i></button>
+              </td>
+            </tr>
+            <tr>
+              <td>Aisha Khan</td>
+              <td>23EC067</td>
+              <td>aisha@example.com</td>
+              <td>9123456780</td>
+              <td>
+                <button class="btn-edit"><i class="fa fa-pen"></i></button>
+                <button class="btn-delete"><i class="fa fa-trash"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </body>
+  <script src="JavaScript/index.js"></script>
 </html>

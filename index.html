@@ -30,18 +30,18 @@
         <!-- Form Section -->
         <form class="student-form">
           <label class="form-label">Student Name</label>
-          <input type="text" class="form-input" placeholder="Enter student name" required/>
+          <input type="text" id="stuname" class="form-input" placeholder="Enter student name" required/>
 
           <label class="form-label">student ID</label>
-          <input type="number" class="form-input" placeholder="Enter student ID" required/>
+          <input type="number" id="stuId" class="form-input" placeholder="Enter student ID" required/>
 
           <label class="form-label">Email</label>
-          <input type="email" class="form-input" placeholder="Enter email" required/>
+          <input type="email" id="stuEmail" class="form-input" placeholder="Enter email" required/>
 
           <label class="form-label">Mobile No</label>
-          <input type="tel" class="form-input"  maxlength="10" placeholder="Enter mobile number" required/>
+          <input type="number" id="stuMobile" class="form-input"  maxlength="10" placeholder="Enter mobile number" required/>
 
-          <button type="submit" class="btn-submit">Submit</button>
+          <button type="submit" id="submBt" class="btn-submit">Submit</button>
         </form>
       </div>
 
@@ -58,31 +58,12 @@
               <th>Actions</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>Rahul Sharma</td>
-              <td>23CS045</td>
-              <td>rahul@example.com</td>
-              <td>9876543210</td>
-              <td>
-                <button class="btn-edit"><i class="fa fa-pen"></i></button>
-                <button class="btn-delete"><i class="fa fa-trash"></i></button>
-              </td>
-            </tr>
-            <tr>
-              <td>Aisha Khan</td>
-              <td>23EC067</td>
-              <td>aisha@example.com</td>
-              <td>9123456780</td>
-              <td>
-                <button class="btn-edit"><i class="fa fa-pen"></i></button>
-                <button class="btn-delete"><i class="fa fa-trash"></i></button>
-              </td>
-            </tr>
+          <tbody id="tablBdy">
+           
           </tbody>
         </table>
       </div>
     </section>
+    <script src="JavaScript/index.js"></script>
   </body>
-  <script src="JavaScript/index.js"></script>
 </html>

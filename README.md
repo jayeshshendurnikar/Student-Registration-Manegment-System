@@ -40,4 +40,5 @@ cd student-registration-system
 Simply open index.html on browser.
 
 ⭐ If you found this project helpful, please give it a star!
+<br>
 Made with ❤️ by Jayesh Shendurnikar.

@@ -3,19 +3,28 @@
 📋 Features
 
 ✅ Add Students - Register new student.
+<br>
 ✏️ Edit Students - Update existing student information.
+<br>
 🗑️ Delete Students - Remove student records with confirmation.
+<br>
 💾 Persistent Storage - Data saved in browser's localStorage.
+<br>
 🔍 Validation - Input validation for all fields.
+<br>
 📱 Responsive Design - Works on desktop and mobile devices.
+<br>
 🚫 Duplicate Prevention - Prevents duplicate student ID.
 
 
 🛠️ Technologies Used
 
 HTML
+<br>
 CSS
+<br>
 JavaScript
+<br>
 LocalStorage
 
 

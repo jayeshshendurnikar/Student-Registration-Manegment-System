@@ -31,13 +31,14 @@ LocalStorage
 Installation
 
 1.Clone the repository
-git clone <your-repo-url>
+#git clone <your-repo-url>
 
 2.Navigate 
-cd student-registration-system
+#cd student-registration-system
 
 3.Open the application
 Simply open index.html on browser.
 
 ⭐ If you found this project helpful, please give it a star!
+<br>
 Made with ❤️ by Jayesh Shendurnikar.

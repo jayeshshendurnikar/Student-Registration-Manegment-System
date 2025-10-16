@@ -39,6 +39,10 @@ Installation
 3.Open the application
 Simply open index.html on browser.
 
+#images
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/752e5f19-e5ea-47e8-9961-6f4d2ce2254b" />
+
+
 ⭐ If you found this project helpful, please give it a star!
 <br>
 Made with ❤️ by Jayesh Shendurnikar.
